@@ -2,94 +2,94 @@
 <testng-results ignored="10" total="16" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-29T09:54:51 IST" name="Suite" finished-at="2023-03-29T09:55:37 IST" duration-ms="45759">
+  <suite started-at="2023-03-29T11:42:48 IST" name="Suite" finished-at="2023-03-29T11:45:25 IST" duration-ms="156865">
     <groups>
     </groups>
-    <test started-at="2023-03-29T09:54:51 IST" name="Test" finished-at="2023-03-29T09:55:37 IST" duration-ms="45759">
+    <test started-at="2023-03-29T11:42:48 IST" name="Test" finished-at="2023-03-29T11:45:25 IST" duration-ms="156865">
       <class name="TestCases.VerifyHeader">
-        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:TestCases.VerifyHeader@4b8ee4de]" started-at="2023-03-29T09:54:50 IST" name="Beforesuite" finished-at="2023-03-29T09:54:51 IST" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:TestCases.VerifyHeader@4b8ee4de]" started-at="2023-03-29T11:42:48 IST" name="Beforesuite" finished-at="2023-03-29T11:42:48 IST" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforesuite -->
-        <test-method is-config="true" signature="openURL()[pri:0, instance:TestCases.VerifyHeader@4b8ee4de]" started-at="2023-03-29T09:54:51 IST" name="openURL" finished-at="2023-03-29T09:54:56 IST" duration-ms="5568" status="PASS">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:TestCases.VerifyHeader@4b8ee4de]" started-at="2023-03-29T11:42:48 IST" name="openURL" finished-at="2023-03-29T11:43:06 IST" duration-ms="17455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method signature="header()[pri:0, instance:TestCases.VerifyHeader@4b8ee4de]" started-at="2023-03-29T09:54:56 IST" name="header" finished-at="2023-03-29T09:54:59 IST" duration-ms="2921" status="PASS">
+        <test-method signature="header()[pri:0, instance:TestCases.VerifyHeader@4b8ee4de]" started-at="2023-03-29T11:43:06 IST" name="header" finished-at="2023-03-29T11:43:11 IST" duration-ms="4680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- header -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyHeader@4b8ee4de]" started-at="2023-03-29T09:54:59 IST" name="closeBrowser" finished-at="2023-03-29T09:55:00 IST" duration-ms="343" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyHeader@4b8ee4de]" started-at="2023-03-29T11:43:11 IST" name="closeBrowser" finished-at="2023-03-29T11:43:11 IST" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:TestCases.VerifyHeader@4b8ee4de]" started-at="2023-03-29T09:55:37 IST" name="Aftersuite" finished-at="2023-03-29T09:55:37 IST" duration-ms="424" status="PASS">
+        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:TestCases.VerifyHeader@4b8ee4de]" started-at="2023-03-29T11:45:25 IST" name="Aftersuite" finished-at="2023-03-29T11:45:26 IST" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftersuite -->
       </class> <!-- TestCases.VerifyHeader -->
       <class name="TestCases.VerifyMenuBar">
-        <test-method is-config="true" signature="openURL()[pri:0, instance:TestCases.VerifyMenuBar@d9345cd]" started-at="2023-03-29T09:55:11 IST" name="openURL" finished-at="2023-03-29T09:55:14 IST" duration-ms="3129" status="PASS">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:TestCases.VerifyMenuBar@d9345cd]" started-at="2023-03-29T11:43:52 IST" name="openURL" finished-at="2023-03-29T11:44:08 IST" duration-ms="16371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method signature="MenuBar()[pri:0, instance:TestCases.VerifyMenuBar@d9345cd]" started-at="2023-03-29T09:55:14 IST" name="MenuBar" finished-at="2023-03-29T09:55:16 IST" duration-ms="2262" status="PASS">
+        <test-method signature="MenuBar()[pri:0, instance:TestCases.VerifyMenuBar@d9345cd]" started-at="2023-03-29T11:44:08 IST" name="MenuBar" finished-at="2023-03-29T11:44:23 IST" duration-ms="15415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MenuBar -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyMenuBar@d9345cd]" started-at="2023-03-29T09:55:16 IST" name="closeBrowser" finished-at="2023-03-29T09:55:16 IST" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyMenuBar@d9345cd]" started-at="2023-03-29T11:44:23 IST" name="closeBrowser" finished-at="2023-03-29T11:44:24 IST" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestCases.VerifyMenuBar -->
       <class name="TestCases.VerifyRegister">
-        <test-method is-config="true" signature="openURL()[pri:0, instance:TestCases.VerifyRegister@29215f06]" started-at="2023-03-29T09:55:25 IST" name="openURL" finished-at="2023-03-29T09:55:29 IST" duration-ms="3386" status="PASS">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:TestCases.VerifyRegister@29215f06]" started-at="2023-03-29T11:45:06 IST" name="openURL" finished-at="2023-03-29T11:45:14 IST" duration-ms="8006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method signature="Register()[pri:0, instance:TestCases.VerifyRegister@29215f06]" started-at="2023-03-29T09:55:29 IST" name="Register" finished-at="2023-03-29T09:55:30 IST" duration-ms="1547" status="PASS">
+        <test-method signature="Register()[pri:0, instance:TestCases.VerifyRegister@29215f06]" started-at="2023-03-29T11:45:14 IST" name="Register" finished-at="2023-03-29T11:45:16 IST" duration-ms="1874" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyRegister@29215f06]" started-at="2023-03-29T09:55:30 IST" name="closeBrowser" finished-at="2023-03-29T09:55:31 IST" duration-ms="278" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyRegister@29215f06]" started-at="2023-03-29T11:45:16 IST" name="closeBrowser" finished-at="2023-03-29T11:45:16 IST" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestCases.VerifyRegister -->
       <class name="TestCases.VerifyAddingProductToCart">
-        <test-method is-config="true" signature="openURL()[pri:0, instance:TestCases.VerifyAddingProductToCart@2d710f1a]" started-at="2023-03-29T09:55:16 IST" name="openURL" finished-at="2023-03-29T09:55:20 IST" duration-ms="4154" status="PASS">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:TestCases.VerifyAddingProductToCart@2d710f1a]" started-at="2023-03-29T11:44:24 IST" name="openURL" finished-at="2023-03-29T11:44:39 IST" duration-ms="14910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method signature="AddingProjectToCart()[pri:0, instance:TestCases.VerifyAddingProductToCart@2d710f1a]" started-at="2023-03-29T09:55:20 IST" name="AddingProjectToCart" finished-at="2023-03-29T09:55:25 IST" duration-ms="4701" status="PASS">
+        <test-method signature="AddingProjectToCart()[pri:0, instance:TestCases.VerifyAddingProductToCart@2d710f1a]" started-at="2023-03-29T11:44:39 IST" name="AddingProjectToCart" finished-at="2023-03-29T11:45:05 IST" duration-ms="26741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddingProjectToCart -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyAddingProductToCart@2d710f1a]" started-at="2023-03-29T09:55:25 IST" name="closeBrowser" finished-at="2023-03-29T09:55:25 IST" duration-ms="390" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyAddingProductToCart@2d710f1a]" started-at="2023-03-29T11:45:05 IST" name="closeBrowser" finished-at="2023-03-29T11:45:06 IST" duration-ms="427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestCases.VerifyAddingProductToCart -->
       <class name="TestCases.VerifyFooter">
-        <test-method is-config="true" signature="openURL()[pri:0, instance:TestCases.VerifyFooter@428640fa]" started-at="2023-03-29T09:55:00 IST" name="openURL" finished-at="2023-03-29T09:55:03 IST" duration-ms="2831" status="PASS">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:TestCases.VerifyFooter@428640fa]" started-at="2023-03-29T11:43:11 IST" name="openURL" finished-at="2023-03-29T11:43:19 IST" duration-ms="8371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method signature="footer()[pri:0, instance:TestCases.VerifyFooter@428640fa]" started-at="2023-03-29T09:55:03 IST" name="footer" finished-at="2023-03-29T09:55:10 IST" duration-ms="7735" status="PASS">
+        <test-method signature="footer()[pri:0, instance:TestCases.VerifyFooter@428640fa]" started-at="2023-03-29T11:43:19 IST" name="footer" finished-at="2023-03-29T11:43:51 IST" duration-ms="31899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footer -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyFooter@428640fa]" started-at="2023-03-29T09:55:10 IST" name="closeBrowser" finished-at="2023-03-29T09:55:11 IST" duration-ms="276" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyFooter@428640fa]" started-at="2023-03-29T11:43:51 IST" name="closeBrowser" finished-at="2023-03-29T11:43:52 IST" duration-ms="340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestCases.VerifyFooter -->
       <class name="TestCases.VerifyLogin">
-        <test-method is-config="true" signature="openURL()[pri:0, instance:TestCases.VerifyLogin@59505b48]" started-at="2023-03-29T09:55:31 IST" name="openURL" finished-at="2023-03-29T09:55:35 IST" duration-ms="4563" status="PASS">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:TestCases.VerifyLogin@59505b48]" started-at="2023-03-29T11:45:16 IST" name="openURL" finished-at="2023-03-29T11:45:23 IST" duration-ms="7348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCases.VerifyLogin@59505b48]" started-at="2023-03-29T09:55:35 IST" name="login" data-provider="testData" finished-at="2023-03-29T09:55:36 IST" duration-ms="1095" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestCases.VerifyLogin@59505b48]" started-at="2023-03-29T11:45:23 IST" name="login" data-provider="testData" finished-at="2023-03-29T11:45:25 IST" duration-ms="1792" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,7 +105,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyLogin@59505b48]" started-at="2023-03-29T09:55:36 IST" name="closeBrowser" finished-at="2023-03-29T09:55:37 IST" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.VerifyLogin@59505b48]" started-at="2023-03-29T11:45:25 IST" name="closeBrowser" finished-at="2023-03-29T11:45:25 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

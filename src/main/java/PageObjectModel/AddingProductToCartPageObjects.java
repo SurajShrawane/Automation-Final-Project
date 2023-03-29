@@ -9,7 +9,7 @@ public class AddingProductToCartPageObjects {
 	// This driver dont have scope--
 	public WebDriver driver;
 
-	// iphone--
+	// iphone x-path--
 	private By search = By.xpath("//input[@placeholder='Search']");
 
 	private By clksearchiphone = By.xpath("//span[@class='input-group-btn']");
@@ -20,7 +20,7 @@ public class AddingProductToCartPageObjects {
 	
 	private By addtocartiphone = By.xpath("//button[@class='btn btn-primary btn-lg btn-block']");
 
-	//Samsung--
+	//Samsung x-path--
 	private By searchforsamsung = By.xpath("//input[@placeholder='Search']");
 
 	private By clksearchsam = By.xpath("//span[@class='input-group-btn']");

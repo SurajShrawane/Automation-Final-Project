@@ -84,8 +84,8 @@ public class baseClass {
 
 		String destination = System.getProperty("user.dir") + "/Screenshots/" + screenshotName + dateFormat + ".png";
 
-		File finalDestaination = new File(destination);
-		FileUtils.copyFile(source, finalDestaination);
+		File finalDestination = new File(destination);
+		FileUtils.copyFile(source, finalDestination);
 
 		return destination;
 	}

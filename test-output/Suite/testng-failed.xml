@@ -6,66 +6,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestCases.VerifyRegister">
-        <methods>
-          <include name="Register"/>
-          <include name="Aftersuite"/>
-          <include name="closeBrowser"/>
-          <include name="openURL"/>
-          <include name="getScreenshot"/>
-          <include name="Beforesuite"/>
-        </methods>
-      </class> <!-- TestCases.VerifyRegister -->
-      <class name="TestCases.VerifyMenuBar">
-        <methods>
-          <include name="Aftersuite"/>
-          <include name="closeBrowser"/>
-          <include name="openURL"/>
-          <include name="getScreenshot"/>
-          <include name="MenuBar"/>
-          <include name="Beforesuite"/>
-        </methods>
-      </class> <!-- TestCases.VerifyMenuBar -->
-      <class name="TestCases.VerifyFooter">
-        <methods>
-          <include name="Aftersuite"/>
-          <include name="closeBrowser"/>
-          <include name="openURL"/>
-          <include name="getScreenshot"/>
-          <include name="footer"/>
-          <include name="Beforesuite"/>
-        </methods>
-      </class> <!-- TestCases.VerifyFooter -->
       <class name="TestCases.VerifyAddingProductToCart">
         <methods>
           <include name="Aftersuite"/>
-          <include name="closeBrowser"/>
           <include name="openURL"/>
-          <include name="getScreenshot"/>
+          <include name="closeBrowser"/>
           <include name="AddingProjectToCart"/>
           <include name="Beforesuite"/>
         </methods>
       </class> <!-- TestCases.VerifyAddingProductToCart -->
-      <class name="TestCases.VerifyHeader">
-        <methods>
-          <include name="Aftersuite"/>
-          <include name="closeBrowser"/>
-          <include name="openURL"/>
-          <include name="getScreenshot"/>
-          <include name="header"/>
-          <include name="Beforesuite"/>
-        </methods>
-      </class> <!-- TestCases.VerifyHeader -->
-      <class name="TestCases.VerifyLogin">
-        <methods>
-          <include name="login"/>
-          <include name="Aftersuite"/>
-          <include name="closeBrowser"/>
-          <include name="openURL"/>
-          <include name="getScreenshot"/>
-          <include name="Beforesuite"/>
-        </methods>
-      </class> <!-- TestCases.VerifyLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

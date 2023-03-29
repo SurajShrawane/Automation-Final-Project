@@ -5,10 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class RegisterPageObjects {
-
+	
+	// This driver dont have scope--
 	public WebDriver driver;
 
-	//Register--
+	//Register page x-path--
 	private By myAccount = By.xpath("(//span[@class='hidden-xs hidden-sm hidden-md'])[3]");
 
 	private By register = By.xpath("//a[text()='Register']");

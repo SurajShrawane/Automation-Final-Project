@@ -9,7 +9,7 @@ public class MenuBarPageObjects {
 	// This driver dont have scope--
 	public WebDriver driver;
 	
-	//MenuBar--
+	//MenuBar x-path--
 	private By desktop = By.xpath("(//a[@class='dropdown-toggle'])[2]");
 	
 	private By laptopandnotebooks = By.xpath("(//a[@class='dropdown-toggle'])[3]");

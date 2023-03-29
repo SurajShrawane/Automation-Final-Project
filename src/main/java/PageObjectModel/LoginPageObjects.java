@@ -4,11 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LoginPageObjects {// extends baseClass {
+public class LoginPageObjects {
 
 	// This driver dont have scope--
 	public WebDriver driver;
-
+	
+	//Login Page x-path--
 	private By myAccount = By.xpath("(//span[@class='hidden-xs hidden-sm hidden-md'])[3]");
 
 	private By login = By.xpath("//a[text()='Login']");

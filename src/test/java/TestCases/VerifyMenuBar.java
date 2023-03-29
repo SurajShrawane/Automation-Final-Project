@@ -24,7 +24,6 @@ public class VerifyMenuBar extends baseClass {
 
 		obj1.verifyComponents().click();
 
-
 		obj1.verifyTablets().click();
 
 		obj1.verifySoftware().click();

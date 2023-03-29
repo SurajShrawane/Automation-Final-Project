@@ -4,7 +4,7 @@ import org.testng.asserts.SoftAssert;
 
 public class CommonMethods {
 
-	public static void handleAssertions(String actual, String expected,String message) {
+	public static void handleAssertions(String actual, String expected, String message) {
 
 		SoftAssert a = new SoftAssert();
 
@@ -12,11 +12,8 @@ public class CommonMethods {
 
 		String exp = expected;
 
-		a.assertEquals(act, exp ,message);
+		a.assertEquals(act, exp, message);
 
 		a.assertAll();
 	}
-
-	
-
 }

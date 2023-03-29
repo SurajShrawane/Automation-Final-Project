@@ -32,9 +32,11 @@ public class ListenerClass extends ExtentManager implements ITestListener {
 			String screenshotPath = "";
 
 			try {
+				
 				screenshotPath = baseClass.getScreenshot(baseClass.driver, result.getName());
-			} catch (Exception e) {
 				test.addScreenCaptureFromPath(screenshotPath);
+
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}

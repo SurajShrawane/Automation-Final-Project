@@ -8,7 +8,8 @@ public class HeaderPageObjects {
 
 	// This driver dont have scope--
 	public WebDriver driver;
-
+	
+	//Header x-path--
 	private By currency = By.xpath("//button[@class='btn btn-link dropdown-toggle']");
 
 	private By telephone = By.xpath("//i[@class='fa fa-phone']");
