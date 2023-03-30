@@ -84,7 +84,7 @@ public class AddingProductToCartPageObjects {
 
 	public WebElement grabTheSamPrice() {
 
-		return driver.findElement(iphoneprice);
+		return driver.findElement(samprice);
 	}
 	public WebElement addToCartSam() {
 

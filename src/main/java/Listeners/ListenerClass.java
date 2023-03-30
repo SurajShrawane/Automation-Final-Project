@@ -17,8 +17,7 @@ public class ListenerClass extends ExtentManager implements ITestListener {
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		if (result.getStatus() == ITestResult.SUCCESS)
-			;
+		if (result.getStatus() == ITestResult.SUCCESS);
 		test.log(Status.PASS, "Test case passed is" + result.getName());
 	}
 
